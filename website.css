@@ -1,0 +1,119 @@
+*,
+html{
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #f4f4f4;
+}
+
+nav{
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+	height: 7vh;
+	padding-bottom: 5px;
+}
+
+#navbar{
+	display:flex;
+	gap: 1rem;
+}
+nav ul li{
+	font-size: 18px;
+	list-style-type: none;
+	color:rgb(106, 106, 109);
+}
+
+div nav img{
+	width: 160px;
+	padding-bottom: 5px;
+}
+a{
+	text-decoration: none;
+}
+/* navigation selesai */
+#baner{
+	height: 75vh;
+	width: 198vh;
+}
+/* baner selesai */
+/* harga saham mulai */
+#h2hargasaham{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.divhargasaham{
+	background-color: rgb(6, 101, 101);
+	width: 160vh;
+	height: 250px;
+}
+
+
+/* harga saham selesai */
+h2{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding-top: 100px;
+}
+div ul{
+	display: flex;
+	gap: 3rem;
+	justify-content: center;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+#hijau{
+	background-color: rgb(6, 101, 101);
+	width: 250px;
+	height: 130px;
+	padding-top:50px;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	border-radius: 12px;
+	font-size: 18px;
+}
+#kuning{
+	background-color: rgb(223, 139, 14);
+	width: 250px;
+	height: 130px;
+	padding-top: 50px;
+	color:white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 600;
+	border-radius: 12px;
+	font-size: 18px;
+}
+h4{
+	text-align:center;
+	font-family: serif;
+	line-height: 0cm;
+}
+
+.financial{
+	display:flex;
+	gap: 2rem;
+	justify-content: center;
+	list-style-type: none;
+}
+
+#financialfigures{
+	list-style-type: none;
+	background-color: rgb(224, 233, 233);
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	padding-top: 90px;
+}
+
+#persen{
+	color:orange
+}
+#nominal{
+	font-size: 28px;
+}
